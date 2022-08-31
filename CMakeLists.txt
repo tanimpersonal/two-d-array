@@ -14,3 +14,4 @@ add_executable(matrix
 
 add_executable(sum-diagonal sum-diagonal.cpp)
 add_executable(row-by-col row-by-col.cpp)
+add_executable(diagonal-check diagonal-check.cpp)

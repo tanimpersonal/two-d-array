@@ -1,5 +1,6 @@
 D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug/CMakeFiles/matrix.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug/CMakeFiles/sum-diagonal.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug/CMakeFiles/row-by-col.dir
+D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug/CMakeFiles/diagonal-check.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir

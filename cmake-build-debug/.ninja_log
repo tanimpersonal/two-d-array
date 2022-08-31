@@ -2,6 +2,8 @@
 5	1477	6836419311824717	CMakeFiles/matrix.dir/two-d-array.cpp.obj	9d93d3db45758da0
 1478	1594	6836419312951706	matrix.exe	805212fbc06eb7de
 1	1937	6836502040970741	CMakeFiles/sum-diagonal.dir/sum-diagonal.cpp.obj	b3ee03a610d5e13c
-1938	2151	6836502043056264	sum-diagonal.exe	e48486bc2be9520a
 0	1924	6836510173066213	CMakeFiles/row-by-col.dir/row-by-col.cpp.obj	d5511e82b0e76e4a
+1938	2151	6836502043056264	sum-diagonal.exe	e48486bc2be9520a
 1925	2040	6836510174193525	row-by-col.exe	1463a7cfd3fb0a54
+0	1675	6836516340814693	CMakeFiles/diagonal-check.dir/diagonal-check.cpp.obj	bcdd9cdfd833c886
+1676	1794	6836516341961610	diagonal-check.exe	a841d425ef10d248
