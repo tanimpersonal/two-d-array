@@ -176,6 +176,40 @@ build diagonal-check.exe: CXX_EXECUTABLE_LINKER__diagonal-check_Debug CMakeFiles
   TARGET_IMPLIB = libdiagonal-check.dll.a
   TARGET_PDB = diagonal-check.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target symmetric
+
+
+#############################################
+# Order-only phony target for symmetric
+
+build cmake_object_order_depends_target_symmetric: phony || CMakeFiles/symmetric.dir
+
+build CMakeFiles/symmetric.dir/symmetric.cpp.obj: CXX_COMPILER__symmetric_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/matrix/symmetric.cpp || cmake_object_order_depends_target_symmetric
+  DEP_FILE = CMakeFiles\symmetric.dir\symmetric.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/matrix/."
+  OBJECT_DIR = CMakeFiles\symmetric.dir
+  OBJECT_FILE_DIR = CMakeFiles\symmetric.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target symmetric
+
+
+#############################################
+# Link the executable symmetric.exe
+
+build symmetric.exe: CXX_EXECUTABLE_LINKER__symmetric_Debug CMakeFiles/symmetric.dir/symmetric.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\symmetric.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = symmetric.exe
+  TARGET_IMPLIB = libsymmetric.dll.a
+  TARGET_PDB = symmetric.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -210,6 +244,8 @@ build row-by-col: phony row-by-col.exe
 
 build sum-diagonal: phony sum-diagonal.exe
 
+build symmetric: phony symmetric.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -218,7 +254,7 @@ build sum-diagonal: phony sum-diagonal.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug
 
-build all: phony matrix.exe sum-diagonal.exe row-by-col.exe diagonal-check.exe
+build all: phony matrix.exe sum-diagonal.exe row-by-col.exe diagonal-check.exe symmetric.exe
 
 # =============================================================================
 # Built-in targets

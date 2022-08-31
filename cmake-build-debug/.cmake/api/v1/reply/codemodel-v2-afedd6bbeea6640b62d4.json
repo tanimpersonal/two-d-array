@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -68,6 +70,13 @@
 					"id" : "sum-diagonal::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-sum-diagonal-Debug-1d01a8a79afce25bb8e7.json",
 					"name" : "sum-diagonal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "symmetric::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-symmetric-Debug-e22a33d2f3136d93e7bb.json",
+					"name" : "symmetric",
 					"projectIndex" : 0
 				}
 			]
