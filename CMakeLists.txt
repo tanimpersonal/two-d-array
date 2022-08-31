@@ -11,3 +11,5 @@ add_executable(matrix
         .idea/modules.xml
         .idea/workspace.xml
         two-d-array.cpp)
+
+add_executable(sum-diagonal sum-diagonal.cpp)

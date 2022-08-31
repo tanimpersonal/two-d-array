@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "matrix",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "matrix::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-matrix-Debug-eaace1abff0e6a40ad7f.json",
 					"name" : "matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum-diagonal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum-diagonal-Debug-1d01a8a79afce25bb8e7.json",
+					"name" : "sum-diagonal",
 					"projectIndex" : 0
 				}
 			]
