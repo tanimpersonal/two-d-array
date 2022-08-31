@@ -108,6 +108,40 @@ build sum-diagonal.exe: CXX_EXECUTABLE_LINKER__sum-diagonal_Debug CMakeFiles/sum
   TARGET_IMPLIB = libsum-diagonal.dll.a
   TARGET_PDB = sum-diagonal.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target row-by-col
+
+
+#############################################
+# Order-only phony target for row-by-col
+
+build cmake_object_order_depends_target_row-by-col: phony || CMakeFiles/row-by-col.dir
+
+build CMakeFiles/row-by-col.dir/row-by-col.cpp.obj: CXX_COMPILER__row-by-col_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/matrix/row-by-col.cpp || cmake_object_order_depends_target_row-by-col
+  DEP_FILE = CMakeFiles\row-by-col.dir\row-by-col.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/matrix/."
+  OBJECT_DIR = CMakeFiles\row-by-col.dir
+  OBJECT_FILE_DIR = CMakeFiles\row-by-col.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target row-by-col
+
+
+#############################################
+# Link the executable row-by-col.exe
+
+build row-by-col.exe: CXX_EXECUTABLE_LINKER__row-by-col_Debug CMakeFiles/row-by-col.dir/row-by-col.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\row-by-col.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = row-by-col.exe
+  TARGET_IMPLIB = librow-by-col.dll.a
+  TARGET_PDB = row-by-col.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +170,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build matrix: phony matrix.exe
 
+build row-by-col: phony row-by-col.exe
+
 build sum-diagonal: phony sum-diagonal.exe
 
 # =============================================================================
@@ -146,7 +182,7 @@ build sum-diagonal: phony sum-diagonal.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/matrix/cmake-build-debug
 
-build all: phony matrix.exe sum-diagonal.exe
+build all: phony matrix.exe sum-diagonal.exe row-by-col.exe
 
 # =============================================================================
 # Built-in targets
