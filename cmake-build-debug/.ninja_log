@@ -1,0 +1,9 @@
+# ninja log v5
+0	1531	6836418478069557	CMakeFiles/matrix.dir/two-d-array.cpp.obj	9d93d3db45758da0
+1536	1678	6836418479515692	matrix.exe	805212fbc06eb7de
+5	1451	6836418730104522	CMakeFiles/matrix.dir/two-d-array.cpp.obj	9d93d3db45758da0
+1451	1562	6836418731191633	matrix.exe	805212fbc06eb7de
+5	1488	6836419008002970	CMakeFiles/matrix.dir/two-d-array.cpp.obj	9d93d3db45758da0
+1489	1600	6836419009065240	matrix.exe	805212fbc06eb7de
+5	1477	6836419311824717	CMakeFiles/matrix.dir/two-d-array.cpp.obj	9d93d3db45758da0
+1478	1594	6836419312951706	matrix.exe	805212fbc06eb7de
